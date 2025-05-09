@@ -28,7 +28,7 @@ This project implements a payroll management system with RESTful APIs to perform
 1. Clone the repository:
    ```
    git clone https://github.com/yourusername/PayRollservice.git
-   cd payroll-service
+   cd PayRollservice
    ```
 
 2. Build the project:
