@@ -1,4 +1,4 @@
-This is a PayRoll service restfull api, you can interact with it using curl commands 
+
 # PayRoll Service API
 
 A RESTful API for managing employee payroll data built with Spring Boot, based on the [Spring REST tutorial](https://spring.io/guides/tutorials/rest).
