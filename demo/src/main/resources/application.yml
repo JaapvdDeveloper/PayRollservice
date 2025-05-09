@@ -1,0 +1,33 @@
+
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
+    whitelabel.enabled: false
+    path: /error
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/payroll
+    username: postgres
+    password: payrollpass
+  thymeleaf: 
+    cache: false
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        show-sql: true
+        type: trace
+
+logging:
+  level:
+    org.hibernate.type: TRACE
+
